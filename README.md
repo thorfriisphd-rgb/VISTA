@@ -95,7 +95,7 @@ python generate_projection_figures.py --strict
 Strict validation terminates execution if inconsistencies
 are detected between the alignment, column map, and
 projected cassette sequences.
----
+
 ## Usage
 
 Run directly from the repository root:
