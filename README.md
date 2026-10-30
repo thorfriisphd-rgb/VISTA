@@ -2,7 +2,8 @@
 
 Standalone rendering pipeline for generating evolutionary projection figures for the manuscript:
 
-*C12orf29 encodes IBAM (In Between Actin and Myosin), a sarcomeric protein with a conserved actomyosin interaction grammar spanning approximately one billion years of evolution.*
+*C12orf29 encodes IBAM (In Between Actin and Myosin), a sarcomeric
+protein with a conserved actomyosin binding grammar.*
 (Manuscript in preparation)
 
 
