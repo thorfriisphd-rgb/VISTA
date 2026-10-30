@@ -56,6 +56,46 @@ Representative projection figures of *Homo sapiens* and the Euglenazoa *Eutrepti
  - [Eutreptiella_gymnastica projection PDF](Eutreptiella_gymnastica_projection.pdf)
 
 ---
+
+## Requirements
+
+- Python 3.8 or later
+- Matplotlib
+
+All other Python modules used by VISTA are included
+in the Python standard library.
+
+### Installation
+
+Install the required dependency:
+
+```bash
+python -m pip install matplotlib
+```
+
+### Required input files
+
+The following files are included in the repository:
+
+- `C12_aligned.fa`
+- `MG_column_map_n26_core60_chem90.tsv`
+- `MG_projected_trimmed_n26_core60_chem90.fa`
+
+No GROMACS installation, molecular dynamics trajectories,
+or AlphaFold installation is required.
+
+### Validation
+
+Run VISTA with strict validation enabled:
+
+```bash
+python generate_projection_figures.py --strict
+```
+
+Strict validation terminates execution if inconsistencies
+are detected between the alignment, column map, and
+projected cassette sequences.
+---
 ## Usage
 
 Run directly from the repository root:
